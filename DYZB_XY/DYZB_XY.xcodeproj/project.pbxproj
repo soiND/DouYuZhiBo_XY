@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FF2096E91D9125CB007D39FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2096E81D9125CB007D39FE /* AppDelegate.swift */; };
-		FF2096EB1D9125CB007D39FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2096EA1D9125CB007D39FE /* ViewController.swift */; };
 		FF2096EE1D9125CB007D39FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF2096EC1D9125CB007D39FE /* Main.storyboard */; };
 		FF2096F11D9125CB007D39FE /* DYZB_XY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF2096EF1D9125CB007D39FE /* DYZB_XY.xcdatamodeld */; };
 		FF2096F31D9125CB007D39FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2096F21D9125CB007D39FE /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		FF2096E51D9125CB007D39FE /* DYZB_XY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYZB_XY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2096E81D9125CB007D39FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF2096EA1D9125CB007D39FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF2096ED1D9125CB007D39FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF2096F01D9125CB007D39FE /* DYZB_XY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DYZB_XY.xcdatamodel; sourceTree = "<group>"; };
 		FF2096F21D9125CB007D39FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +54,8 @@
 		FF2096E71D9125CB007D39FE /* DYZB_XY */ = {
 			isa = PBXGroup;
 			children = (
+				FF2096FD1D93D50A007D39FE /* Classes */,
 				FF2096E81D9125CB007D39FE /* AppDelegate.swift */,
-				FF2096EA1D9125CB007D39FE /* ViewController.swift */,
 				FF2096EC1D9125CB007D39FE /* Main.storyboard */,
 				FF2096F21D9125CB007D39FE /* Assets.xcassets */,
 				FF2096F41D9125CB007D39FE /* LaunchScreen.storyboard */,
@@ -65,6 +63,125 @@
 				FF2096EF1D9125CB007D39FE /* DYZB_XY.xcdatamodeld */,
 			);
 			path = DYZB_XY;
+			sourceTree = "<group>";
+		};
+		FF2096FD1D93D50A007D39FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF2096FE1D93D50A007D39FE /* Follow(关注) */,
+				FF2096FF1D93D50A007D39FE /* Home(首页) */,
+				FF2097041D93D50A007D39FE /* Live(直播) */,
+				FF2097051D93D50A007D39FE /* Main(主要) */,
+				FF2097091D93D50A007D39FE /* Profile(我的) */,
+				FF20970A1D93D50A007D39FE /* Tools(工具) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FF2096FE1D93D50A007D39FE /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Follow(关注)";
+			sourceTree = "<group>";
+		};
+		FF2096FF1D93D50A007D39FE /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				FF2097001D93D50A007D39FE /* Controller */,
+				FF2097011D93D50A007D39FE /* Model */,
+				FF2097021D93D50A007D39FE /* View */,
+				FF2097031D93D50A007D39FE /* ViewModel */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		FF2097001D93D50A007D39FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF2097011D93D50A007D39FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF2097021D93D50A007D39FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF2097031D93D50A007D39FE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF2097041D93D50A007D39FE /* Live(直播) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		FF2097051D93D50A007D39FE /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				FF2097061D93D50A007D39FE /* Controller */,
+				FF2097071D93D50A007D39FE /* Model */,
+				FF2097081D93D50A007D39FE /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		FF2097061D93D50A007D39FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF2097071D93D50A007D39FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF2097081D93D50A007D39FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF2097091D93D50A007D39FE /* Profile(我的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile(我的)";
+			sourceTree = "<group>";
+		};
+		FF20970A1D93D50A007D39FE /* Tools(工具) */ = {
+			isa = PBXGroup;
+			children = (
+				FF20970B1D93D50A007D39FE /* Extension */,
+			);
+			path = "Tools(工具)";
+			sourceTree = "<group>";
+		};
+		FF20970B1D93D50A007D39FE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +216,7 @@
 				TargetAttributes = {
 					FF2096E41D9125CB007D39FE = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 62GYUT2DVA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2096F11D9125CB007D39FE /* DYZB_XY.xcdatamodeld in Sources */,
-				FF2096EB1D9125CB007D39FE /* ViewController.swift in Sources */,
 				FF2096E91D9125CB007D39FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,7 +379,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 62GYUT2DVA;
 				INFOPLIST_FILE = DYZB_XY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cdcd.www.DYZB-XY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,7 +394,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 62GYUT2DVA;
 				INFOPLIST_FILE = DYZB_XY/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cdcd.www.DYZB-XY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,6 +424,7 @@
 				FF2096FC1D9125CB007D39FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
